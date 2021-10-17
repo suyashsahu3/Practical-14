@@ -1,0 +1,61 @@
+
+    body {
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        background-color: cyan;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        text-align: center;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        background-color: rgba(226, 60, 60, 0.973);
+        color: black;
+    }
+
+    button:disabled {
+        background-color: rgba(226, 60, 60, 0.973);
+        color: rgb(100, 99, 99);
+    }
+
+    .minus {
+        position: absolute;
+        left: 40%;
+        top: 15%;
+    }
+
+    .plus {
+        position: absolute;
+        right: 40%;
+        top: 15%;
+    }
+
+    button:hover {
+        background-color: greenyellow;
+        color: grey;
+    }
+
+    h2 {
+        color: yellow;
+        font-size: 45px;
+        position: absolute;
+        left: 49.5%;
+        top: 11%;
+    }
+
+    h1 
+    {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+    }
